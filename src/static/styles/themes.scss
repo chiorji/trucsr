@@ -1,0 +1,18 @@
+// Overrides bootstrap palletes
+$color-primary: #0036C2;
+$color-info: #3892DA;
+$color-success: #92D050;
+$color-warning: #FFC000;
+$color-light: whitesmoke;
+
+// Overrides bootstrap themes
+$theme-colors: (
+  "primary": $color-primary,
+  "info": $color-info,
+  "success": $color-success,
+  "warning": $color-warning,
+  "light": $color-light
+);
+
+@import './utilities.scss';
+@import './general.scss';

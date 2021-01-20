@@ -1,0 +1,6 @@
+// Define some constant value that applies to different areas
+$hero-height: 70vh;
+
+// Gradient used on the hero
+$hero-gradient: radial-gradient(circle at center right, lighten($color-light, 2%), darken($color-primary, 10%), darken($color-primary, 10%));
+
