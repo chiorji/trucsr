@@ -1,0 +1,26 @@
+@import './themes.scss';
+
+.footer{
+  color: $color-light;
+  padding-bottom: 4rem;
+}
+
+.footer__header{
+  .header--text{
+    color: $color-light;
+    font-family: 'Avenir Black';
+  }
+}
+
+.footer__links li{
+  line-height: 2.5;
+  a {
+    color: $color-light;
+  }
+}
+
+.footer__social a {
+  svg{
+    height: 30px;
+  }
+}

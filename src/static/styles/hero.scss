@@ -1,0 +1,39 @@
+@import './themes.scss';
+
+.nav__top--nav {
+  // background-color: $color-success;
+  position: relative;
+  z-index: 999; // places nav on top of hero
+}
+
+.hero {
+  position: relative;
+  min-height: $hero-height;
+}
+
+.hero__slides{
+  min-height: $hero-height;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  top: 0px;
+  border: 1px solid $color-warning;
+  background-image:  $hero-gradient;;
+}
+
+.hero--slide1 {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.hero__slide--header{
+  border: 1px solid red;
+  margin-top: 6rem;
+  color: $color-light;
+
+  h2{
+    font-size: 3rem;
+    font-weight: 800;
+  }
+}

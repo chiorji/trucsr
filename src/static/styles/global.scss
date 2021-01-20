@@ -1,0 +1,33 @@
+@import '../../static/styles/themes.scss';
+
+.linkbtn *{
+  transition: all .2s linear;
+}
+
+.linkbtn {
+  font-family: 'Avenir';
+  img, svg {
+    height: 10px;
+    width: 30px;
+  }
+}
+// Animate LinkButton on hover
+.linkbtn:hover{
+  img, svg{
+    transform: translateX(.3rem);
+  }
+}
+
+.cta__btn {
+  font-family: 'Avenir Black';
+  font-weight: 900;
+}
+
+.btn--text{
+  display: inline-block;
+  border-bottom: 2px solid $color-success;
+}
+
+.header__title {
+  font-family: 'Avenir Black';
+}

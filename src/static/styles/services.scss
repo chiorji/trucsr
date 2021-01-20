@@ -1,0 +1,15 @@
+.image--card:hover{
+  .card__inner > .card__img{
+      transition: all .5s linear;
+      transform: scale(1.06);
+    }
+}
+
+.card__body{
+  min-height: 280px;
+}
+
+.card__img{
+  height: 250px;
+  width: 100%;
+}
