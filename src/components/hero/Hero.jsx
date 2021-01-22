@@ -12,8 +12,8 @@ const Hero = () => (
           <li data-target="#slider" data-slide-to="1" className=""></li>
         </ol>
         <div className="carousel-inner">
-          <Slide1 className="carousel-item active" />
-          <Slide2 className="carousel-item"/>
+          <Slide2 className="carousel-item active"/>
+          <Slide1 className="carousel-item" />
         </div>
       </div>
       <div className="w-100 top__nav--wrapper">
