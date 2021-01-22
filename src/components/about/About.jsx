@@ -6,7 +6,7 @@ const AboutUs = () => (
     <section className="container-fluid bg-light py-5">
       <div className="container mb-3">
         <div className='row'>
-          <div className='col-12 col-md-3 offset-md-1'>
+          <div className='col-12 col-md-4'>
             <Title text='ABOUT US' className=' d-flex align-items-center justify-content-center'/>
           </div>
           <div className="col-12 col-md-7">

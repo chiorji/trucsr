@@ -20,7 +20,7 @@ class Utils {
       }
 
       try {
-        setTimeout(() => resolve({ status: 200, success: true, data: {[resource]: this.data[resource]} }), 5000)
+        setTimeout(() => resolve({ status: 200, success: true, data: {[resource]: this.data[resource]} }), 1000)
       } catch (err) {
         return reject({
           ...err,

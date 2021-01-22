@@ -9,9 +9,9 @@ import '../../static/styles/global.scss'
  * @param {String} clsNames
  */
 
-const LinkButton = ({href, text, clsNames}) => (
-  <Link to={href} className={'btn btn-sm linkbtn m-0 d-flex align-items-center justify-content-center ' + clsNames}>
-    <span className=''>{text}</span>
+const LinkButton = ({href, text, className}) => (
+  <Link to={href} className={`btn btn-sm border-0 linkbtn d-flex align-items-center justify-content-center ${className}`}>
+    <span className='d-flex align-items-center m-0'>{text}</span>
     <Chevron alt='' className='ml-2' fill='currentColor' />
   </Link>
 )

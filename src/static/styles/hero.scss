@@ -1,39 +1,45 @@
 @import './themes.scss';
 
-.nav__top--nav {
-  // background-color: $color-success;
-  position: relative;
-  z-index: 999; // places nav on top of hero
-}
-
 .hero {
   position: relative;
-  min-height: $hero-height;
 }
 
-.hero__slides{
-  min-height: $hero-height;
-  position: absolute;
-  z-index: 99;
+.hero__slide{
+  height: $hero-height;
   width: 100%;
-  top: 0px;
-  border: 1px solid $color-warning;
-  background-image:  $hero-gradient;;
-}
-
-.hero--slide1 {
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 
 .hero__slide--header{
-  border: 1px solid red;
-  margin-top: 6rem;
   color: $color-light;
-
+  margin-top: 6rem;
   h2{
     font-size: 3rem;
     font-weight: 800;
+  }
+}
+
+.hero--slide1 {
+  background: $color-success url(../img/sera.png);
+}
+
+.hero--slide2{
+  background-image:  $hero-gradient;
+}
+
+.top__nav--wrapper {
+  position: absolute;
+  z-index: 999; // places nav on top of hero
+  top: 0px;
+}
+
+.carousel-indicators li {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50px !important;
+  border: 2px solid $color-success !important;
+  background-color: transparent !important;
+
+  &.active{
+    background-color: $color-success !important;
   }
 }

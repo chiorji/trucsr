@@ -1,9 +1,10 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
-import '../../static/styles/global.scss'
 import {ReactComponent as Chevron} from '../../static/img/arrow-right.svg'
+import '../../static/styles/global.scss'
 /**
  *  Call To Action Button
- * @param {String} href
+ * @param {String} hreflinkbtn
  * @param {String} text
  * @param {String} clsNames
  */

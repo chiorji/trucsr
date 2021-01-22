@@ -5,8 +5,8 @@ import LinkButton from './global/LinkButton'
 import logo from '../static/img/logos/logo.png'
 
 const TopNav = () => (
-  <nav className='row navbar navbar-dark navbar-expand-lg nav__top--nav'>
-    <div className="container py-2">
+  <nav className='navbar navbar-dark navbar-expand-lg nav__top--nav'>
+    <div className="container">
       <Link to='/' className='brand'>
         <Image src={logo } alt='trucsr logo'/>
       </Link>
@@ -33,8 +33,8 @@ const TopNav = () => (
           <li className="nav-item ml-md-3">
              <Link to='/media' className='nav-link'>Media</Link>
           </li>
-           <li className="nav-item m-0 ml-md-3">
-             <LinkButton href='/media' clsNames='nav-link px-3 btn-success text-light' text='CONTACT US'/>
+           <li className="nav-item ml-md-3">
+             <LinkButton href='/media' className='nav-link btn-success px-2' text='CONTACT US'/>
           </li>
         </ul>
       </div>
