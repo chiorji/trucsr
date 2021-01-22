@@ -1,0 +1,29 @@
+.project__card *{
+  transition: all 3s ease;
+}
+
+.project__card{
+  height: 470px;
+  position: relative;
+
+  .card--overlay{
+    position: relative;
+    overflow: hidden;
+
+    .card--body{
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      padding: 25% 11% 0px;
+      background-color: rgba(#000000, 0.6);
+      color: #fff;
+      font-weight: 500;
+    }
+
+    &:hover{
+      img {
+        transform: scale(1.09);
+      }
+    }
+  }
+}
