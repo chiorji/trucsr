@@ -2,6 +2,12 @@ import img1 from '../static/img/tree.png'
 import img2 from '../static/img/snow-land.png'
 import img3 from '../static/img/city-topview.png'
 
+// services
+import handshake from '../static/img/handshake.png'
+import worker from '../static/img/worker.png'
+import chart from '../static/img/chart.png'
+import planer from '../static/img/planer.png'
+
 
 export const posts = [
   {
@@ -31,11 +37,11 @@ export const posts = [
 ]
 
 export const services = [
-  { "title": "Consulting", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url": img1 },
+  { "title": "Consulting", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url": handshake },
 
-  { "title": "Impact Measurement & Accessment", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url": img3 },
+  { "title": "Impact Measurement & Accessment", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url": worker },
 
-  { "title": "Consulting", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url": img2 },
+  { "title": "Consulting", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url": chart },
 
-  {"title": "Consulting", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url":img3}
+  {"title": "Consulting", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url":planer}
 ]
