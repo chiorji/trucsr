@@ -37,7 +37,7 @@ export const posts = [
 ]
 
 export const services = [
-  { "title": "Consulting", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url": handshake },
+  { "title": "Consulting", "description": "Nothing excites us like an opportunity to help our clients make those key decisions that marries their business ideals and sustainability in a way helps them innovate in the areas of new products, ideas and service that keeps them ahead of competition.", "img_url": handshake },
 
   { "title": "Impact Measurement & Accessment", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url": worker },
 
