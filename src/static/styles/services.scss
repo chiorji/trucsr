@@ -2,13 +2,19 @@
 //   border: 2px solid red;
 // }
 
-.card__inner{
- min-height: 100%;
+.card__inner {
+  min-height: 100%;
 }
 
 .card__body {
-  height: 100%;
+  min-height: 315px;
   z-index: 9999;
+
+  .cta__btn {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+  }
 }
 
 .card__img {

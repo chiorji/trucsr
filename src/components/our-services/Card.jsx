@@ -8,10 +8,10 @@ const Card = ({ title, description, img_url }) => (
         <div className="card__img">
         <Image src={img_url} alt={title} className='h-100 w-100'/>
       </div>
-      <div className="card__body p-4">
+      <div className="card__body p-4 d-flex flex-column">
         <h5 className="card__title font-weight-bold">{title}</h5>
         <div className="card__desc">{description}</div>
-        <CtaBtn text='WORK WITH US' clsNames='mt-5 d-flex align-items-center justify-content-end'/>
+        <CtaBtn text='WORK WITH US' clsNames='d-flex align-items-center justify-content-end align-self-end cta__btn'/>
       </div>
       </div>
   </div>
