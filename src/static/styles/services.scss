@@ -1,17 +1,25 @@
-.card__body{
-  min-height: 280px;
+// .image--card {
+//   border: 2px solid red;
+// }
+
+.card__inner{
+ min-height: 100%;
+}
+
+.card__body {
+  height: 100%;
   z-index: 9999;
 }
 
-.card__img{
+.card__img {
   height: 250px;
   width: 100%;
   z-index: 99;
   transition: all 3s ease;
 }
 
-.image--card:hover{
-  .card__inner > .card__img{
+.image--card:hover {
+  .card__inner > .card__img {
     transform: scale(1.09);
   }
 }
