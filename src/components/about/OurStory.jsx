@@ -2,7 +2,7 @@ import React from 'react'
 import Image from '../global/Image'
 import Title from '../global/Title'
 import CtoBtn from '../global/CtaBtn'
-import nature from '../../static/img/nature.png'
+import nature from '../../static/img/nature1.png'
 import skyscrapper from '../../static/img/sky-scrapper.png'
 
 const OurStory = () => {
