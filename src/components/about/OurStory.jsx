@@ -2,15 +2,15 @@ import React from 'react'
 import Image from '../global/Image'
 import Title from '../global/Title'
 import CtoBtn from '../global/CtaBtn'
-import nature from '../../static/img/nature1.png'
+import nature from '../../static/img/nature11.png'
 import skyscrapper from '../../static/img/sky-scrapper.png'
 
 const OurStory = () => {
   return (
-    <section className="container">
+    <section className="container my-5">
       <div className="row">
         <div className="col-12 col-md-4 offset-md-1 p-0">
-          <Image src={nature} alt='Nature' className='img-fluid'/>
+          <Image src={nature} alt='Nature' className='img-fluid shadow'/>
         </div>
         <div className="col-12 col-md-6">
           <Title text='Our Story' prefix={false} />
@@ -20,12 +20,12 @@ const OurStory = () => {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row mt-4">
         <div className="col-12 col-md-3 offset-md-2 p-0 d-flex justify-contents-start">
-          <Image src={skyscrapper} alt='' className='img-fluid align-self-start'/>
+          <Image src={skyscrapper} alt='' className='img-fluid align-self-end ml-md-4'/>
         </div>
         <div className="col-12 col-md-6">
-          <div className="div__story">
+          <div className="div__story d-flex flex-column justify-content-between align-items-start h-100">
             <p className="story--text">
               TCSRN was founded in 2006, and carried out what many have come to acknowledge as trail blazing spadework that led to a rapid growth of what has become a vibrant and viable corporate social responsibility and sustainability industry in Nigeria, and Africa.
             </p>
