@@ -7,7 +7,7 @@
 Having known some section may require data from the backend, sections like the blog, services; which it's content will be dynamically fetched and added to the page; I resorted to mocking an API request
 which;
 
-- Serves a variable with the expected data after a timeout(500)
+- Serves a variable with the expected data after a timeout(1000)
 
 Since the **READ MORE** will need an url of the blog, I formatted the slug to be used as a placeholder for the blog url.
 
@@ -27,3 +27,8 @@ Issues/challenges am having and currently working to fix are;
 - Fixing the animation on the **Our Projects** section
 
 - Fixing the animation on the **Our Partners** section
+
+
+### Proposed feature
+
+- Adding loading indictor to sections that gets data from remote (blogs, our services)
