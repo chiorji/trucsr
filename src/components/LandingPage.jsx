@@ -13,7 +13,7 @@ const LandingPage = () => (
   <>
     <Hero />
     <AboutUs />
-    <Suspense fallback={<p>Loading</p>}>
+    <Suspense fallback={<p className='text-primary text-center'>Loading...</p>}>
       <Services/>
     </Suspense>
     <Projects/>

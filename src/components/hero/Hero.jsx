@@ -1,7 +1,8 @@
 import React from 'react'
 import TopNav from '../TopNav'
 import Slide1 from './Slide1'
-import Slide2 from './Slide2'
+// import Slide2 from './Slide2'
+import sera from '../../static/img/sera.png'
 import '../../static/styles/hero.scss'
 
 const Hero = () => (
@@ -11,9 +12,9 @@ const Hero = () => (
           <li data-target="#slider" data-slide-to="0" className="active"></li>
           <li data-target="#slider" data-slide-to="1" className=""></li>
         </ol>
-        <div className="carousel-inner">
-          <Slide2 className="carousel-item active"/>
-          <Slide1 className="carousel-item" />
+        <div className="carousel-inner position-relative">
+          {/* <Slide2 className="carousel-item active"/> */}
+        <Slide1 className="carousel-item" src={sera} />
         </div>
       </div>
       <div className="w-100 top__nav--wrapper">

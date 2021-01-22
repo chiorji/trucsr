@@ -2,11 +2,19 @@
 
 .hero {
   position: relative;
+  min-height: 76vh;
 }
 
 .hero__slide{
-  height: $hero-height;
+  height: 76vh;
   width: 100%;
+  position: absolute;
+  background: radial-gradient(circle at center right, rgba(#262a67, .6), rgba(darken(#262a67, 15%), 1), rgba(darken(#262a67, 25%), 1));
+}
+
+.slide--body{
+  z-index: 999999;
+  position: absolute;
 }
 
 .hero__slide--header{
@@ -19,7 +27,9 @@
 }
 
 .hero--slide1 {
-  background: $color-success url(../img/sera.png);
+  img {
+    z-index: -9;
+  }
 }
 
 .hero--slide2{
@@ -28,7 +38,7 @@
 
 .top__nav--wrapper {
   position: absolute;
-  z-index: 999; // places nav on top of hero
+  z-index: 9999999999999999999; // places nav on top of hero
   top: 0px;
 }
 
@@ -38,6 +48,7 @@
   border-radius: 50px !important;
   border: 2px solid $color-success !important;
   background-color: transparent !important;
+  z-index: 999999999999999999999999999999999999;
 
   &.active{
     background-color: $color-success !important;
