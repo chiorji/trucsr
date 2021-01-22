@@ -6,15 +6,16 @@
 
 .linkbtn {
   font-family: 'Avenir';
+
   img, svg {
-    height: 10px;
+    height: 15px;
     width: 30px;
   }
 }
-// Animate LinkButton on hover
+
 .linkbtn:hover{
   img, svg{
-    transform: translateX(.3rem);
+    transform: translateX(.4rem);
   }
 }
 

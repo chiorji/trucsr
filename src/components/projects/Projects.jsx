@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="container mb-5 mt-3">
         <div className="row">
           <div className="col-12 col-md-3 my-4 mx-auto">
-            <LinkButton href='/projects' text='VIEW ALL PROJECTS' clsNames=' bg-success text-light font-weight-bold btn-block py-2 '/>
+            <LinkButton href='/projects' text='VIEW ALL PROJECTS' className=' btn-success text-light font-weight-bold btn-block py-2 '/>
           </div>
         </div>
       </div>

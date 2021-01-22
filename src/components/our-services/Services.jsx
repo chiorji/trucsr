@@ -7,7 +7,6 @@ const Services = () => {
   const [services, setServices] = useState([])
 
 useEffect(() => {
-  console.log(services)
     Utils.getResource('services').then(res => {
       setServices(res.data.services)
     }).catch(err => {
@@ -18,7 +17,7 @@ useEffect(() => {
 
   return (
     <div className="container-fluid p-0 mt-5">
-      <div className="container border border-danger mb-3">
+      <div className="container mb-3">
         <div className='row mb-4'>
           <div className='col-12 col-md-3 offset-md-1'>
             <Title text='OUR SERVICES' className=' d-flex align-items-center justify-content-start'/>
