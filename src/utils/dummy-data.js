@@ -39,9 +39,9 @@ export const posts = [
 export const services = [
   { "title": "Consulting", "description": "Nothing excites us like an opportunity to help our clients make those key decisions that marries their business ideals and sustainability in a way helps them innovate in the areas of new products, ideas and service that keeps them ahead of competition.", "img_url": handshake },
 
-  { "title": "Impact Measurement & Accessment", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url": worker },
+  { "title": "Impact Measurement & Accessment", "description": "At TCSRN, we help decision-makers and policy-makers decide what actions they should or should not take to make society more sustainable, and also ensure that plans and activities makes an optimal contribution to sustainable development", "img_url": worker },
 
-  { "title": "Consulting", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url": chart },
+  { "title": "Engagement Design", "description": "Consumers have finite attention spans and limited, as such, gaining their attention as quickly as possible and trying to establish the bonding capital with them is vital. We are adept at devising the surest and the most potent of reaching your target audience and ensuring optimized bonding that build mutual trust.", "img_url": chart },
 
-  {"title": "Consulting", "description": "is a consulting company that helps organisations to contribute to their societal goals of a philanthropic, activist, or charitable nature by engaging in or supporting volunteering or ethically-oriented practices.", "img_url":planer}
+  {"title": "Strategy", "description": "At TCSRN, we provide service that assist our client to set new agendas and reengineer their business models that boost their chances at a sustainable future in which innovation propels their productivity.", "img_url":planer}
 ]
