@@ -16,6 +16,9 @@
   line-height: 2.5;
   a {
     color: $color-light;
+    &:hover{
+      text-decoration: none !important;
+    }
   }
 }
 
